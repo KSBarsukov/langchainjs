@@ -1,5 +1,5 @@
 {
-  "name": "langchainjs",
+  "name": "@talentnet/langchainjs",
   "version": "0.0.4",
   "engines": {
     "node": ">=18"
@@ -16,8 +16,10 @@
     "test-exports-vite"
   ],
   "repository": {
-    "type": "git",
-    "url": "https://github.com/hwchase17/langchainjs.git"
+    "url": "git://github.com/talentnet/langchainjs.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "packageManager": "yarn@3.4.1",
   "scripts": {
